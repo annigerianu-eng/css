@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div { 
+  margin: 5px; 
+  padding: 5px; 
+  background: lightgray; 
+}
+.dotted { border: 2px dotted red; }
+.dashed { border: 2px dashed blue; }
+.solid { border: 2px solid green; }
+.double { border: 4px double purple; }
+.groove { border: 4px groove orange; }
+.ridge { border: 4px ridge brown; }
+.inset { border: 4px inset navy; }
+.outset { border: 4px outset teal; }
+.none { border: none; }
+.hidden { border: hidden; }
+</style>
+</head>
+<body>
+
+<div class="dotted">dotted</div>
+<div class="dashed">dashed</div>
+<div class="solid">solid</div>
+<div class="double">double</div>
+<div class="groove">groove</div>
+<div class="ridge">ridge</div>
+<div class="inset">inset</div>
+<div class="outset">outset</div>
+<div class="none">none</div>
+<div class="hidden">hidden</div>
+
+</body>
+</html>
