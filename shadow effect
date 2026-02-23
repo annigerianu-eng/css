@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div {
+  background-color: lightblue;
+  padding: 20px;
+  margin: 40px;
+  width: 200px;
+}
+
+/* Box Shadow Examples */
+.example1 { box-shadow: 5px 5px; }
+.example2 { box-shadow: 5px 5px 5px gray; }
+.example3 { box-shadow: 10px 10px 10px gray; }
+.example4 { box-shadow: 5px 5px 15px black; }
+.example5 { box-shadow: 0 0 20px red; }  /* Glow effect */
+.example6 { box-shadow: 10px 10px 5px 5px gray; } /* spread */
+.example7 { box-shadow: inset 5px 5px 10px gray; } /* inner shadow */
+.example8 { box-shadow: 5px 5px 5px gray, -5px -5px 5px red; } /* multiple shadows */
+
+/* Text Shadow Examples */
+h2 {
+  font-size: 30px;
+  margin: 30px;
+}
+
+.text1 { text-shadow: 2px 2px; }
+.text2 { text-shadow: 2px 2px red; }
+.text3 { text-shadow: 2px 2px 5px red; }
+.text4 { text-shadow: 0 0 5px blue; } /* glow */
+.text5 { text-shadow: 2px 2px 5px gray, -2px -2px 5px red; } /* multiple */
+</style>
+</head>
+<body>
+
+<h1>Box Shadow Examples</h1>
+
+<div class="example1">box-shadow: 5px 5px</div>
+<div class="example2">box-shadow: 5px 5px 5px gray</div>
+<div class="example3">box-shadow: 10px 10px 10px gray</div>
+<div class="example4">box-shadow: 5px 5px 15px black</div>
+<div class="example5">box-shadow: 0 0 20px red</div>
+<div class="example6">box-shadow: 10px 10px 5px 5px gray</div>
+<div class="example7">box-shadow: inset 5px 5px 10px gray</div>
+<div class="example8">box-shadow: 5px 5px 5px gray, -5px -5px 5px red</div>
+
+<h1>Text Shadow Examples</h1>
+
+<h2 class="text1">Text Shadow 1</h2>
+<h2 class="text2">Text Shadow 2</h2>
+<h2 class="text3">Text Shadow 3</h2>
+<h2 class="text4">Text Shadow 4</h2>
+<h2 class="text5">Text Shadow 5</h2>
+
+</body>
+</html>
