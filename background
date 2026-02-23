@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+h1 {
+  background-color: green;
+}
+div {
+  background-color: lightblue;
+}
+p {
+  background-color: yellow;
+}
+a {
+  background-color: pink;
+}
+span {
+  background-color: orange;
+}
+</style>
+</head>
+<body>
+
+<h1>CSS background-color example!</h1>
+
+<div>
+This is a div element.
+<p>This is a paragraph inside div.</p>
+This is still in div.
+</div>
+
+<p>This paragraph is outside div.</p>
+
+<a href="#">This is a link</a>
+
+<span>This is a span element.</span>
+
+</body>
+</html>
