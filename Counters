@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  counter-reset: my-counter;
+}
+
+h2::before {
+  counter-increment: my-counter;
+  content: "Chapter " counter(my-counter) ": ";
+  color: red;
+}
+</style>
+</head>
+<body>
+
+<h2>First</h2>
+<h2>Second</h2>
+<h2>Third</h2>
+<h2>Fourth</h2>
+
+</body>
+</html>
